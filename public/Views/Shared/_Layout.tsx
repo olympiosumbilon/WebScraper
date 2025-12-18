@@ -1,16 +1,16 @@
-import Header from "../Header/Header";
-import Navigation from "../Navigation/Navigation"
-import SideMenu from "../SideMenu/Sidemenu";
-import Hero from "../Hero/Hero";
-import Footer from "../Footer/Footer";
+// import Header from "../Header/Header";
+// import Navigation from "../Navigation/Navigation"
+// import SideMenu from "../SideMenu/Sidemenu";
+import Homepage from "../Homepage/Homepage";
+// import Footer from "../Footer/Footer";
 function Layout() {
   return (
     <div>
-        <Header/>
+        {/* <Header/>
         <Navigation/>
-        <SideMenu/>
-        <Hero/>
-        <Footer/>
+        <SideMenu/> */}
+        <Homepage/>
+        {/* <Footer/> */}
     </div>
   )
 }
